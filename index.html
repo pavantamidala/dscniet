@@ -389,6 +389,17 @@
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
   <script type="text/javascript" src="/js/main.js"></script>
   <script type="text/javascript" src="/pwa.js"></script>
+  <script>
+    function toggleMenu() {
+        let menu = document.querySelector(".navbar-menu");
+        // if (menu.classList.contains("is-active")) {
+        //   menu.classList.remove("is-active");
+        // } else {
+        //   menu.classList.add("is-active");
+        // }
+        $(".navbar-menu").slideToggle();
+      }
+  </script>
 </body>
 
 </html>
